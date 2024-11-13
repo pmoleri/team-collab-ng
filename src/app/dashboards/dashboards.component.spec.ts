@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormsModule } from '@angular/forms';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
-import { IGX_LIST_DIRECTIVES, IgxIconComponent, IGX_CARD_DIRECTIVES, IgxIconButtonDirective, IgxRippleDirective, IgxButtonDirective } from '@infragistics/igniteui-angular';
+import { IGX_LIST_DIRECTIVES, IgxIconComponent, IGX_CARD_DIRECTIVES, IgxIconButtonDirective, IgxRippleDirective, IgxButtonDirective } from 'igniteui-angular';
 import { DashboardsComponent } from './dashboards.component';
 
 describe('DashboardsComponent', () => {
