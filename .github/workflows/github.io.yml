@@ -10,7 +10,7 @@ on:
 jobs:
   build-and-deploy:
     # Deactivate the workflow. Will be changed when AB is ready
-    if: true
+    if: false
     runs-on: ubuntu-latest
 
     environment: github-pages
