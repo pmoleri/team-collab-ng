@@ -4,9 +4,9 @@ import { IGX_DROP_DOWN_DIRECTIVES, IGX_NAVIGATION_DRAWER_DIRECTIVES, IgxAvatarCo
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [IGX_NAVIGATION_DRAWER_DIRECTIVES, IGX_DROP_DOWN_DIRECTIVES, IgxToggleActionDirective, IgxOverlayOutletDirective, IgxButtonDirective, IgxRippleDirective, IgxToggleDirective, IgxIconComponent, IgxAvatarComponent, RouterLink, RouterOutlet],
+  imports: [RouterLink, RouterOutlet, IGX_DROP_DOWN_DIRECTIVES, IGX_NAVIGATION_DRAWER_DIRECTIVES, IgxAvatarComponent, IgxButtonDirective, IgxIconComponent, IgxOverlayOutletDirective, IgxRippleDirective, IgxToggleActionDirective, IgxToggleDirective],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {}
+export class AppComponent {
+}

@@ -15,6 +15,13 @@ export const routes: Routes = [
     }
   },
   {
+    path: 'my-tasks/:asdf',
+    component: MyTasksComponent,
+    data: {
+      text: 'My Tasks'
+    }
+  },
+  {
     path: 'dashboards',
     component: DashboardsComponent,
     data: {
